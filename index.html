@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+        height: 190px;
+      }
+
+      .box {
+        background-color: #A6A6DE;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .box img {
+        height: 80px;
+        width: 60px;
+        border: 2px solid black;
+        border-radius: 14px;
+        margin: 10px;
+      }
+
+      .box h2 {
+        color: black;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+
+        .box {
+          height: 100vh;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Enterprises</h2>
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/global-logic.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/jp-morgan.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/walmart.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/ibm.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/hcl.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/infosys.png"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <h2>Unicorns</h2>
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/global-logic.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/jp-morgan.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/walmart.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/ibm.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/hcl.png"
+          alt=""
+        />
+        <img
+          src="https://www.masaischool.com/images/new-homepage/outcome/infosys.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
